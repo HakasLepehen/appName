@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+.dx-dialog .dx-overlay-wrapper .dx-overlay-content {
+  max-width: 60dvw;
+  max-height: 90dvh;
+
+  & .dx-popup-content {
+    word-wrap: break-word;
+  }
+}
